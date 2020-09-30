@@ -10,6 +10,7 @@ echo 23 . PHP_EOL;
 $hello = "Olá mundo";
 
 
+
 echo $hello;
 echo "<p> $hello </p>";
 echo "<p> {$hello} </p>";
