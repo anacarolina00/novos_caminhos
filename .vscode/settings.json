@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "gitflow4code.releases": []
 =======
     "gitflow4code.features": [
@@ -10,4 +11,8 @@
     ],
     "liveServer.settings.port": 5503
 >>>>>>> 3fb7324cdbaee141c32fc2a59e3da76dc004f2e1
+=======
+    "gitflow4code.features": [],
+    "liveServer.settings.port": 5503
+>>>>>>> develop
 }
