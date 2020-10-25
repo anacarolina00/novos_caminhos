@@ -25,7 +25,11 @@ ini_set('xdebug.overload_var_dump', 1);
  * [ interface ] Style, icon and logo
  */
 
+<<<<<<< HEAD
 echo "<link rel='stylesheet' href='http://127.0.0.1:5500/framework/style.css'/>",
+=======
+echo "<link rel='stylesheet' href='http://127.0.0.1:9999/framework/style.css'/>",
+>>>>>>> upstream/master
 "<link rel='icon' href='http://www.ifto.edu.br/++theme++portal-do-ifto-amarelo/img/favicon.ico'/>",
 "<img class='logo' src='http://127.0.0.1:9999/framework/logo.jpeg'/>";
 
