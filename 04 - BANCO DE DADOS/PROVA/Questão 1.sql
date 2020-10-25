@@ -3,7 +3,8 @@
 A locadora tem objetivos de criar várias franquias es
 palhadas pelo Brasil. Para isso queremos saber em quais cidades nossos clientes moram.
 
-Para você nos ajudar selecione o nome de todas as cidades onde a locadora tem clientes. Mas por favor, não repita o nome da cidade.
+Para você nos ajudar selecione o nome de todas as cidades onde a locadora tem clientes. 
+Mas por favor, não repita o nome da cidade.
 
 
 CREATE TABLE customers (
@@ -23,6 +24,7 @@ VALUES
   (5,	'João Almeida Lima',	'Rua Rio Taiuva',	'Ponta Grossa'),
   (6,	'Diogo Melo Dias',	'Rua Duzentos e Cinqüenta',	'Várzea Grande');
   
+  Resposta -> SELECT DISTINCT city FROM customers;
 
 /*  Execute this query to drop the tables */
 -- DROP TABLE customers; --

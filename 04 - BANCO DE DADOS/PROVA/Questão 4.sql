@@ -1,8 +1,11 @@
 -- ENUNCIADO 
 
-Você foi contratado para dar consultoria a uma empresa. Analisando o banco de dados você notou que as senhas gravadas dos usuários estão em formato de texto, sendo que isso pode gerar uma falha de segurança, uma vez que elas não estão criptografadas.
+Você foi contratado para dar consultoria a uma empresa. Analisando o banco de dados você 
+notou que as senhas gravadas dos usuários estão em formato de texto, sendo que isso pode 
+gerar uma falha de segurança, uma vez que elas não estão criptografadas.
 
-Por tanto você deve selecionar o id, a senha atual e a senha transformada em MD5 de cada usuário na tabela account.
+Por tanto você deve selecionar o id, a senha atual e a senha transformada em MD5 de cada
+usuário na tabela account.
 
 -- ESQUEMA DAS TABELAS A SEREM CRIADAS
 
@@ -30,3 +33,4 @@ id	    password	    MD5
 4	    zooFohH7w	    202b76ed4a556fdbf409505a8023695e
 5	    fah7ohNg	    05b3dccaa70f228f1bedc7a285e50d9d
 
+Resposta -> SELECT password,md5(password) FROM account; 

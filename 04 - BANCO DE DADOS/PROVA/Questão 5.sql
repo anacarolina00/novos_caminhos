@@ -1,6 +1,7 @@
 -- ENUNCIADO
 
-O setor de vendas quer fazer uma promoção para todos os clientes que são pessoas jurídicas. Para isso você deve exibir o nome dos clientes que sejam pessoa jurídica.
+O setor de vendas quer fazer uma promoção para todos os clientes que são pessoas jurídicas. 
+Para isso você deve exibir o nome dos clientes que sejam pessoa jurídica.
 
 -- ESQUEMA DAS TABELAS A SEREM CRIADAS
 
@@ -39,3 +40,5 @@ id_customers	cnpj        	contact
 name	
 Nicolas Diogo Cardoso	
 Sabrina Heloisa Gabriela Barros
+
+Resposta -> SELECT cs.name FROM customers cs, legal_person lp WHERE cs.id = lp.id_customers;
